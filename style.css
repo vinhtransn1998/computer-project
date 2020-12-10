@@ -1,0 +1,263 @@
+body {
+    cursor: pointer !important;
+    width: 100%;
+    height: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image: url(/image/background.png);
+    background-size: cover;
+}
+
+h3 {
+    color: white;
+    box-sizing: border-box;
+    background-color: rgba(255, 0, 0, 0.692);
+    text-align: center;
+}
+
+.new {
+    margin: 0px 90% 0px 0px;
+    box-shadow: 5px 6px 10px 0px rgba(185, 88, 88, 0.712);
+}
+
+.text__deco {
+    text-decoration: none!important;
+}
+
+.mgtop__10 {
+    margin-top: 10px !important;
+}
+
+.mg__10 {
+    margin: 10px 0 !important;
+}
+
+.mg__12 {
+    margin: 12px 0 !important;
+}
+
+
+/* header */
+
+.logo {
+    background-image: url(./image/logoheader.png);
+    width: 100%;
+    height: 80px;
+    background-size: cover;
+}
+
+.fab {
+    color: white;
+}
+
+.hotline>.icon__hostline {
+    display: flex;
+}
+
+.title__hotline {
+    padding: 19% 0 19% 0;
+    list-style: none;
+    color: white;
+    list-style: none;
+    color: white;
+}
+
+.hotline__items {
+    padding: 19% 5px;
+}
+
+.input__search {
+    border: 1px solid rgba(0, 0, 0, 0.39) !important;
+    margin: 10px 0;
+    height: 40px;
+    width: 43%;
+    border-radius: 2%;
+}
+
+.button__search {
+    width: 40px;
+    height: 40px;
+    background-color: #ad4b4bda;
+}
+
+.button__search>a>i {
+    color: black;
+}
+
+.text__deco {
+    text-decoration: none!important;
+}
+
+
+/* menu */
+
+.menu {
+    height: 60px;
+    background-color: #a41c1ccc;
+    border: 2px solid rgb(128, 128, 192);
+}
+
+.menu__items {
+    text-align: center;
+}
+
+h4 {
+    color: rgba(255, 255, 255, 0.89);
+}
+
+h4:hover {
+    color: rgba(90, 90, 199, 0.904);
+    width: 66%;
+    margin: auto;
+}
+
+.menu>.menu__items>a {
+    text-decoration-line: none;
+}
+
+
+/* product */
+
+.title__product {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 2px 15px;
+    height: 2%;
+    background-color: #a41c1ccb;
+    margin-top: 10px;
+    box-shadow: 6px 11px 19px 3px #888888;
+}
+
+.border__product {
+    border: 1px solid rgba(255, 255, 255, 0.747);
+    background: rgba(255, 255, 255, 0.842);
+}
+
+.list__menu__product {
+    box-shadow: 6px 11px 19px 3px #888888;
+}
+
+.list__menu__product__items {
+    font-weight: 600;
+    padding-bottom: 10px;
+    list-style: none;
+    color: black
+}
+
+.list__menu__product__items:hover {
+    color: red;
+}
+
+.text__deco>h4:before {
+    content: ">";
+    position: relative;
+    opacity: 0;
+    color: white;
+    bottom: 10px;
+    -webkit-transition: all 3s;
+    transition: all 1s;
+}
+
+.text__deco>h4:hover:before {
+    opacity: 1;
+    top: 10px;
+}
+
+.text__deco>h4::after {
+    content: "<";
+    position: relative;
+    opacity: 0;
+    color: white;
+    bottom: 10px;
+    -webkit-transition: all 3s;
+    transition: all 1s;
+}
+
+.text__deco>h4:hover::after {
+    opacity: 1;
+    top: 10px;
+}
+
+
+/* banner */
+
+.banner {
+    opacity: 75%;
+    border-bottom: 1px solid rgb(128, 128, 192);
+}
+
+.card__sp {
+    width: 100% !important;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgba(252, 252, 252, 0.493);
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+.card__title {
+    height: 40px;
+    font-size: 11px;
+}
+
+.card__text {
+    margin-bottom: 10px !important;
+    padding: 0px 2px;
+    margin-top: 2px;
+    line-height: 20px;
+    font-family: Roboto;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #333;
+    height: 40px;
+    overflow: hidden;
+    display: block;
+}
+
+.card__img__top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+.pagination__product {
+    margin: 10px 36%;
+}
+
+.price {
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* iframe */
+
+iframe {
+    margin: 10px 5% 0 5%;
+    padding: 10px -26px;
+    width: 90%;
+    height: 400px;
+}
+
+
+/* footer */
+
+.footer__copyright {
+    height: 50px;
+    margin-top: 25px;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.205);
+    text-align: center;
+    color: black;
+}
+
+.footer__link {
+    color: black;
+}
